@@ -12,6 +12,8 @@ import AVFoundation
 class ViewController: UIViewController {
     
     var player: AVAudioPlayer = AVAudioPlayer()
+    
+    var sounds = ["bean", "belch", "giggle", "pew", "pig", "snore", "static", "uuu"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
