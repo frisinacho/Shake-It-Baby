@@ -26,7 +26,9 @@ class ViewController: UIViewController {
             
             print("Device was shaken")
             
-            let fileLocation = NSBundle.mainBundle().pathForResource("bean", ofType: "mp3")
+            let randomNumber = Int(arc4random_uniform(UInt32(sounds.count)))
+            
+            let fileLocation = NSBundle.mainBundle().pathForResource(sounds[randomNumber], ofType: "mp3")
             
             do {
                 
