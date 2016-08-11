@@ -23,6 +23,16 @@ class ViewController: UIViewController {
         if event?.subtype == UIEventSubtype.MotionShake {
             
             print("Device was shaken")
+            
+            let fileLocation = NSBundle.mainBundle().pathForResource("bean", ofType: "mp3")
+            
+            do {
+                
+                try player = AVAudioPlayer(contentsOfURL: NSURL(fileURLWithPath: fileLocation!))
+                
+                player.play()
+            
+            } catch {}
         }
     }
 
