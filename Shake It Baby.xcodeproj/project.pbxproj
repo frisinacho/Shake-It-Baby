@@ -12,6 +12,14 @@
 		66EFF8851D5C60E300FB6DD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66EFF8831D5C60E300FB6DD0 /* Main.storyboard */; };
 		66EFF8871D5C60E300FB6DD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66EFF8861D5C60E300FB6DD0 /* Assets.xcassets */; };
 		66EFF88A1D5C60E300FB6DD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66EFF8881D5C60E300FB6DD0 /* LaunchScreen.storyboard */; };
+		66EFF89A1D5C624E00FB6DD0 /* bean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 66EFF8921D5C624E00FB6DD0 /* bean.mp3 */; };
+		66EFF89B1D5C624E00FB6DD0 /* belch.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 66EFF8931D5C624E00FB6DD0 /* belch.mp3 */; };
+		66EFF89C1D5C624E00FB6DD0 /* giggle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 66EFF8941D5C624E00FB6DD0 /* giggle.mp3 */; };
+		66EFF89D1D5C624E00FB6DD0 /* pew.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 66EFF8951D5C624E00FB6DD0 /* pew.mp3 */; };
+		66EFF89E1D5C624E00FB6DD0 /* pig.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 66EFF8961D5C624E00FB6DD0 /* pig.mp3 */; };
+		66EFF89F1D5C624E00FB6DD0 /* snore.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 66EFF8971D5C624E00FB6DD0 /* snore.mp3 */; };
+		66EFF8A01D5C624E00FB6DD0 /* static.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 66EFF8981D5C624E00FB6DD0 /* static.mp3 */; };
+		66EFF8A11D5C624E00FB6DD0 /* uuu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 66EFF8991D5C624E00FB6DD0 /* uuu.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		66EFF8861D5C60E300FB6DD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66EFF8891D5C60E300FB6DD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66EFF88B1D5C60E300FB6DD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66EFF8921D5C624E00FB6DD0 /* bean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bean.mp3; sourceTree = "<group>"; };
+		66EFF8931D5C624E00FB6DD0 /* belch.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = belch.mp3; sourceTree = "<group>"; };
+		66EFF8941D5C624E00FB6DD0 /* giggle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = giggle.mp3; sourceTree = "<group>"; };
+		66EFF8951D5C624E00FB6DD0 /* pew.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pew.mp3; sourceTree = "<group>"; };
+		66EFF8961D5C624E00FB6DD0 /* pig.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pig.mp3; sourceTree = "<group>"; };
+		66EFF8971D5C624E00FB6DD0 /* snore.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = snore.mp3; sourceTree = "<group>"; };
+		66EFF8981D5C624E00FB6DD0 /* static.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = static.mp3; sourceTree = "<group>"; };
+		66EFF8991D5C624E00FB6DD0 /* uuu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = uuu.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +74,26 @@
 				66EFF8811D5C60E300FB6DD0 /* ViewController.swift */,
 				66EFF8831D5C60E300FB6DD0 /* Main.storyboard */,
 				66EFF8861D5C60E300FB6DD0 /* Assets.xcassets */,
+				66EFF8911D5C621500FB6DD0 /* sounds */,
 				66EFF8881D5C60E300FB6DD0 /* LaunchScreen.storyboard */,
 				66EFF88B1D5C60E300FB6DD0 /* Info.plist */,
 			);
 			path = "Shake It Baby";
+			sourceTree = "<group>";
+		};
+		66EFF8911D5C621500FB6DD0 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				66EFF8921D5C624E00FB6DD0 /* bean.mp3 */,
+				66EFF8931D5C624E00FB6DD0 /* belch.mp3 */,
+				66EFF8941D5C624E00FB6DD0 /* giggle.mp3 */,
+				66EFF8951D5C624E00FB6DD0 /* pew.mp3 */,
+				66EFF8961D5C624E00FB6DD0 /* pig.mp3 */,
+				66EFF8971D5C624E00FB6DD0 /* snore.mp3 */,
+				66EFF8981D5C624E00FB6DD0 /* static.mp3 */,
+				66EFF8991D5C624E00FB6DD0 /* uuu.mp3 */,
+			);
+			name = sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +155,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66EFF89A1D5C624E00FB6DD0 /* bean.mp3 in Resources */,
+				66EFF89F1D5C624E00FB6DD0 /* snore.mp3 in Resources */,
+				66EFF89C1D5C624E00FB6DD0 /* giggle.mp3 in Resources */,
+				66EFF8A11D5C624E00FB6DD0 /* uuu.mp3 in Resources */,
+				66EFF89B1D5C624E00FB6DD0 /* belch.mp3 in Resources */,
+				66EFF8A01D5C624E00FB6DD0 /* static.mp3 in Resources */,
 				66EFF88A1D5C60E300FB6DD0 /* LaunchScreen.storyboard in Resources */,
 				66EFF8871D5C60E300FB6DD0 /* Assets.xcassets in Resources */,
+				66EFF89E1D5C624E00FB6DD0 /* pig.mp3 in Resources */,
 				66EFF8851D5C60E300FB6DD0 /* Main.storyboard in Resources */,
+				66EFF89D1D5C624E00FB6DD0 /* pew.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
